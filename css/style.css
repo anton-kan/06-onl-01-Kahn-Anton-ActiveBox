@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 @import url('masthead.css');
 @import url('features.css');
 @import url('works.css');
@@ -32,4 +35,27 @@ textarea {
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.button {
+  display: block;
+  background-color: #e84545;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border-radius: 2px;
+
+  color: #ffffff;
+  font-family: 'Raleway';
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: #f29999;
 }

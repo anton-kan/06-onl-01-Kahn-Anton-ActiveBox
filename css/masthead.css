@@ -1,0 +1,83 @@
+.masthead {
+  background: url('../img/backgrounds/masthead_background.jpg');
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+
+  min-height: 100vh;
+
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.header__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: stretch;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.logo {
+  margin: 38px 0;
+}
+
+.navigation__menu {
+  height: 100%;
+  margin: 0 -15px;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: end;
+  align-items: center;
+
+  opacity: 0.75;
+  color: #ffffff;
+  font-family: 'Raleway';
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.navigation__menu-item {
+  margin: 0 15px;
+}
+
+.masthead__content {
+  align-self: center;
+
+  margin: 50px 0;
+}
+
+.masthead__title {
+  width: 100%;
+  max-width: 861px;
+  margin: 0 auto;
+
+  color: #ffffff;
+  font-family: 'Open Sans';
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 71px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.masthead__subtitle {
+  width: 100%;
+  max-width: 912px;
+  margin: 41px auto 0 auto;
+
+  color: #ffffff;
+  font-family: 'Raleway';
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  text-align: center;
+}
+
+.masthead__button {
+  width: 200px;
+  margin-top: 77px;
+}
