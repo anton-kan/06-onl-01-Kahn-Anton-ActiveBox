@@ -1,0 +1,49 @@
+.features {
+}
+
+.container {
+}
+
+.features__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+
+  margin: 47px -15px 124px -15px;
+}
+
+.features__card {
+  margin: 74px 15px 0 15px;
+}
+
+.features__image {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.features__image-img {
+}
+
+.features__card-title {
+  margin-top: 34px;
+
+  color: #2d3033;
+  font-family: 'Raleway';
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.features__card-text {
+  max-width: 296px;
+
+  margin-top: 25px;
+
+  color: #6c7279;
+  font-family: 'Raleway';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+}
