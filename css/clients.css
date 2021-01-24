@@ -40,8 +40,18 @@
   text-transform: uppercase;
 }
 
+.slick-prev {
+  left: 25px;
+  z-index: 1;
+}
+
+.slick-next {
+  right: 25px;
+}
+
 .slick-dots {
   position: absolute;
+  width: auto;
   left: calc(50% + 289px);
   bottom: 107px;
   text-align: left;
