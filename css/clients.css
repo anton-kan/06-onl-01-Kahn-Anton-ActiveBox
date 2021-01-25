@@ -20,7 +20,7 @@
 
 .clients__quote-figure {
   max-width: 500px;
-  margin: 15px 85px 15px 85px;
+  margin: 15px 85px 93px 85px;
 }
 
 .clients__quote {
@@ -62,10 +62,9 @@
 }
 
 .slick-dots {
-  margin-top: 64px;
-  position: relative;
-  top: 0;
-  left: 0;
+  width: auto;
+  left: calc(50% + 289px);
+  bottom: 20%;
 }
 
 .slick-dots li {
@@ -107,5 +106,9 @@
 
   .clients__text {
     justify-items: center;
+  }
+
+  .slick-dots {
+    left: calc(50% - 46px);
   }
 }
