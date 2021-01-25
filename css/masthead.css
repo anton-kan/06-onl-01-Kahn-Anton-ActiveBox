@@ -30,7 +30,13 @@
   grid-template-columns: repeat(5, 1fr);
   justify-items: end;
   align-items: center;
+}
 
+.navigation__menu-item {
+  margin: 15px;
+}
+
+.navigation__menu-link {
   opacity: 0.75;
   color: #ffffff;
   font-family: 'Raleway';
@@ -40,8 +46,8 @@
   text-transform: uppercase;
 }
 
-.navigation__menu-item {
-  margin: 15px;
+.navigation__menu-link:hover {
+  opacity: 1;
 }
 
 .masthead__content {
