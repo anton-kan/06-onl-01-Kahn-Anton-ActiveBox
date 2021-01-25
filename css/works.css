@@ -53,3 +53,16 @@
   font-weight: 400;
   text-align: center;
 }
+
+@media (max-width: 680px) {
+  .works {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 470px) {
+  .works {
+    /* TODO: Replace with a slider */
+    grid-template-columns: 1fr;
+  }
+}
