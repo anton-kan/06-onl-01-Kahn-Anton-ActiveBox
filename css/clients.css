@@ -12,19 +12,23 @@
 .clients__text {
   position: relative;
   background-color: #53354a;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
 }
 
 .clients__quote-figure {
   max-width: 500px;
-  margin: 114px 85px 0 85px;
+  margin: 15px 85px 15px 85px;
 }
 
 .clients__quote {
   color: #ffffff;
   font-family: 'Cardo';
-  font-size: 36px;
+  font-size: 2.25rem;
   font-style: italic;
-  line-height: 42px;
+  line-height: 2.625rem;
   text-align: left;
 }
 
@@ -58,11 +62,10 @@
 }
 
 .slick-dots {
-  position: absolute;
-  width: auto;
-  left: calc(50% + 289px);
-  bottom: 107px;
-  text-align: left;
+  margin-top: 64px;
+  position: relative;
+  top: 0;
+  left: 0;
 }
 
 .slick-dots li {
@@ -91,4 +94,18 @@
 .slick-dots li.slick-active button:before {
   opacity: 1;
   color: white;
+}
+
+@media (max-width: 1310px) {
+  .clients__testimonial {
+    grid-template-columns: 1fr;
+  }
+
+  .clients__photo {
+    display: none;
+  }
+
+  .clients__text {
+    justify-items: center;
+  }
 }

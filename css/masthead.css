@@ -63,9 +63,9 @@
 
   color: #ffffff;
   font-family: 'Open Sans';
-  font-size: 65px;
+  font-size: 4.1rem;
   font-weight: 700;
-  line-height: 71px;
+  line-height: 4.4rem;
   text-align: center;
   text-transform: uppercase;
 }
@@ -98,11 +98,6 @@
     margin: 15px 0 0 0;
 
     justify-self: center;
-  }
-
-  .masthead__title {
-    font-size: 9vw;
-    line-height: 10vw;
   }
 
   .masthead__subtitle {

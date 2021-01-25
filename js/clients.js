@@ -1,6 +1,7 @@
 $(document).ready(function () {
   $('.clients__slider').slick({
     dots: true,
-    // dotsClass: 'clients__slider-dots',
+    appendDots: '.clients__quote-figure',
+    adaptiveHeight: true,
   })
 })
