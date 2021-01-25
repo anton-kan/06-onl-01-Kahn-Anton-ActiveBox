@@ -67,7 +67,6 @@ address {
 }
 
 .social-icons {
-  margin-top: 31px;
   display: grid;
   grid-template-columns: repeat(3, 40px);
 }
