@@ -41,7 +41,7 @@
 }
 
 .navigation__menu-item {
-  margin: 0 15px;
+  margin: 15px;
 }
 
 .masthead__content {
@@ -80,4 +80,47 @@
 .masthead__button {
   width: 200px;
   margin-top: 77px;
+}
+
+@media (max-width: 680px) {
+  .header__container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 43px 1fr;
+  }
+
+  .logo {
+    margin: 15px 0 0 0;
+
+    justify-self: center;
+  }
+
+  .masthead__title {
+    font-size: 9vw;
+    line-height: 10vw;
+  }
+
+  .masthead__subtitle {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+
+@media (max-width: 470px) {
+  .navigation__menu {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    justify-items: center;
+  }
+
+  .masthead__content {
+    margin: 15px 0;
+  }
+
+  .masthead__subtitle {
+    margin: 15px auto 0 auto;
+  }
+
+  .masthead__button {
+    margin-top: 15px;
+  }
 }
