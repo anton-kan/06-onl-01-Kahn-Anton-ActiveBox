@@ -1,4 +1,4 @@
-.works {
+.works-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1px;
@@ -54,15 +54,25 @@
   text-align: center;
 }
 
+.works-slider {
+  display: none;
+}
+
+.works__slider-dots {
+  bottom: 25px;
+}
+
 @media (max-width: 680px) {
-  .works {
+  .works-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 470px) {
-  .works {
-    /* TODO: Replace with a slider */
-    grid-template-columns: 1fr;
+  .works-grid {
+    display: none;
+  }
+  .works-slider {
+    display: block;
   }
 }
