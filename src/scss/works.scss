@@ -3,6 +3,14 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 1px;
   justify-items: stretch;
+
+  @media (max-width: 1199px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 599px) {
+    display: none;
+  }
 }
 
 .works__image {
@@ -56,6 +64,10 @@
 
 .works-slider {
   display: none;
+
+  @media (max-width: 599px) {
+    display: block;
+  }
 }
 
 .works__slider-dots {
@@ -68,19 +80,4 @@
 
 .works__slider-dots li.slick-active button:before {
   color: white;
-}
-
-@media (max-width: 1199px) {
-  .works-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 599px) {
-  .works-grid {
-    display: none;
-  }
-  .works-slider {
-    display: block;
-  }
 }

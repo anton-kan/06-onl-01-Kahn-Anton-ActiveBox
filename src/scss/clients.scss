@@ -2,6 +2,16 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: stretch;
+
+  @media (max-width: 1286px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.clients__photo {
+  @media (max-width: 1286px) {
+    display: none;
+  }
 }
 
 .clients__photo-img {
@@ -16,6 +26,10 @@
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
+
+  @media (max-width: 1286px) {
+    justify-items: center;
+  }
 }
 
 .clients__quote-figure {
@@ -56,6 +70,10 @@
   width: auto;
   left: calc(50% + 289px);
   bottom: 20%;
+
+  @media (max-width: 1286px) {
+    left: calc(50% - 46px);
+  }
 }
 
 .clients__slider-dots li button:before {
@@ -64,22 +82,4 @@
 
 .clients__slider-dots li.slick-active button:before {
   color: white;
-}
-
-@media (max-width: 1310px) {
-  .clients__testimonial {
-    grid-template-columns: 1fr;
-  }
-
-  .clients__photo {
-    display: none;
-  }
-
-  .clients__text {
-    justify-items: center;
-  }
-
-  .clients__slider-dots {
-    left: calc(50% - 46px);
-  }
 }

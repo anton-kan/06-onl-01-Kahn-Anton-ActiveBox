@@ -20,6 +20,16 @@ address {
   font-style: normal;
 }
 
+html {
+  @media (max-width: 680px) {
+    font-size: 10px;
+  }
+
+  @media (max-width: 470px) {
+    font-size: 7.5px;
+  }
+}
+
 .wrapper {
   min-height: 100vh;
 }
@@ -106,26 +116,6 @@ address {
   opacity: 1;
 }
 
-@media (max-width: 680px) {
-  html {
-    font-size: 10px;
-  }
-
-  .button {
-    width: 100%;
-  }
-}
-
-@media (max-width: 470px) {
-  html {
-    font-size: 7.5px;
-  }
-
-  .button {
-    width: 100%;
-  }
-}
-
 @import 'masthead.scss';
 @import 'features.scss';
 @import 'works.scss';
@@ -133,3 +123,9 @@ address {
 @import 'clients.scss';
 @import 'download.scss';
 @import 'footer.scss';
+
+.button {
+  @media (max-width: 680px) {
+    width: 100%;
+  }
+}

@@ -7,6 +7,17 @@
   margin: 71px auto 73px auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+
+  @media (max-width: 470px) {
+    margin: 15px auto;
+    grid-template-columns: 1fr;
+  }
+}
+
+.info__item {
+  @media (max-width: 470px) {
+    margin: 15px 0;
+  }
 }
 
 .info__title {
@@ -89,15 +100,4 @@
 .copyright__link {
   color: #ffffff;
   font-family: 'Raleway';
-}
-
-@media (max-width: 470px) {
-  .info-container {
-    margin: 15px auto;
-    grid-template-columns: 1fr;
-  }
-
-  .info__item {
-    margin: 15px 0;
-  }
 }
