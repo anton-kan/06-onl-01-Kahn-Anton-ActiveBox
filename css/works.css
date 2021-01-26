@@ -62,6 +62,14 @@
   bottom: 25px;
 }
 
+.works__slider-dots li button:before {
+  color: white;
+}
+
+.works__slider-dots li.slick-active button:before {
+  color: white;
+}
+
 @media (max-width: 1199px) {
   .works-grid {
     grid-template-columns: repeat(2, 1fr);

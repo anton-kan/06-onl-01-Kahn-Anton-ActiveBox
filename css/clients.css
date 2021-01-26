@@ -58,6 +58,14 @@
   bottom: 20%;
 }
 
+.clients__slider-dots li button:before {
+  color: white;
+}
+
+.clients__slider-dots li.slick-active button:before {
+  color: white;
+}
+
 @media (max-width: 1310px) {
   .clients__testimonial {
     grid-template-columns: 1fr;
